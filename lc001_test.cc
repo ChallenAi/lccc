@@ -12,6 +12,8 @@ int main(int argc, char const *argv[])
     vector<int> resu = s.twoSum(nums, target);
     if (resu[0]+resu[1] == 1) {
         std::cout << "pass" << std::endl;
+    } else {
+        std::cout << "not pass!" << std::endl;
     }
     return 0;
 }
