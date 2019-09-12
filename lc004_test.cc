@@ -1,11 +1,24 @@
 #include <iostream>
 #include "lc004.cc"
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
+    int nums1_[] = {1, 3};
+    int nums2_[] = {2};
+    vector<int> nums1 = vector<int>(nums1_, nums1_+2);
+    vector<int> nums2 = vector<int>(nums2_, nums2_+2);
+
+    int nums3_[] = {1, 2, 3};
+    int nums4_[] = {4, 5, 6};
+    vector<int> nums3 = vector<int>(nums3_, nums3_+2);
+    vector<int> nums4 = vector<int>(nums4_, nums4_+2);
+
     Solution s;
-    ListNode* l3 = s.addTwoNumbers(l1, l2);
-    if (l3->val == 7) {
+    double resu1 = s.findMedianSortedArrays(nums1, nums2);
+    double resu2 = s.findMedianSortedArrays(nums3, nums4);
+    
+    if (resu1 == 2.0f && resu2 == 3.5f) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;
