@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.infra": "javascript",
+        "*.tmpl": "html",
+        "vector": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp",
+        "map": "cpp",
+        "string": "cpp"
+    }
+}
