@@ -12,3 +12,5 @@
 * [ ] lc007 reverse integer  
 * [ ] lc008   
 * [x] lc009 palindrome judgment   
+* [ ] lc010 realize * and . of regular expression  
+* [ ] lc011 biggest container
