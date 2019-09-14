@@ -16,5 +16,5 @@
 * [x] lc011 Sep.14 biggest container
 * [ ] lc012 Sep. Roman to int  
 * [ ] lc013 intToRoman  
-* [ ] lc014   
+* [x] lc014   
 * [ ] lc015   
