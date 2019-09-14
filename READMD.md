@@ -13,4 +13,8 @@
 * [ ] lc008   
 * [x] lc009 palindrome judgment   
 * [ ] lc010 realize * and . of regular expression  
-* [ ] lc011 biggest container
+* [x] lc011 biggest container
+* [x] lc012   
+* [x] lc013   
+* [x] lc014   
+* [x] lc015   
