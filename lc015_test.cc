@@ -6,8 +6,7 @@ int main(int argc, char const *argv[])
 {
     int nums1_[] = {-1, 0, 1, 2, -1, -4};
     // string str2_[] = {"dog","racecar","car"};
-    std::vector<int> nums1 = vector<int>(nums1_, nums1_+5);
-    
+    std::vector<int> nums1 = vector<int>(nums1_, nums1_+6);
     Solution s;
     std::vector<vector<int> > resu1 = s.threeSum(nums1);
     // string resu2 = s.longestCommonPrefix(str2);
