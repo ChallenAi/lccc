@@ -17,4 +17,7 @@
 * [ ] lc012 Sep. Roman to int  
 * [ ] lc013 intToRoman  
 * [x] lc014   
-* [ ] lc015   
+* [x] lc015   
+* [x] lc016   
+* [x] lc017   
+* [x] lc018   
