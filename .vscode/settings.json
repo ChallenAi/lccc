@@ -65,6 +65,8 @@
         "utility": "cpp",
         "*.tcc": "cpp",
         "cinttypes": "cpp",
-        "hashtable": "cpp"
+        "hashtable": "cpp",
+        "deque": "cpp",
+        "queue": "cpp"
     }
 }
