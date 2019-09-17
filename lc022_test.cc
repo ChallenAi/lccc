@@ -1,14 +1,19 @@
 #include <iostream>
 #include <vector>
-#include "lc016.cc"
+#include <string>
+#include "lc022.cc"
 
 int main(int argc, char const *argv[])
 {
-    int nums1_[] = {-1, 2, 1, -4};
-    std::vector<int> nums1 = vector<int>(nums1_, nums1_+4);
+    vector<string> resu_;
+    resu_.push_back("((()))");
+    resu_.push_back("(()())");
+    resu_.push_back("(())()");
+    resu_.push_back("()(())");
+    resu_.push_back("()()()");
     Solution s;
-    int resu1 = s.threeSumClosest(nums1, 1);
-    if (resu1 == 2) {
+    vector<string> resu1 = s.generateParenthesis(3);
+    if (false) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;

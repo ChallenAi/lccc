@@ -1,14 +1,20 @@
 #include <iostream>
 #include <vector>
-#include "lc016.cc"
+#include "lc021.cc"
 
 int main(int argc, char const *argv[])
 {
-    int nums1_[] = {-1, 2, 1, -4};
-    std::vector<int> nums1 = vector<int>(nums1_, nums1_+4);
+    ListNode *l1 = new ListNode(1);
+    l1->next = new ListNode(2);
+    l1->next->next = new ListNode(4);
+
+    ListNode *l2 = new ListNode(1);
+    l2->next = new ListNode(3);
+    l2->next->next = new ListNode(4);
+
     Solution s;
-    int resu1 = s.threeSumClosest(nums1, 1);
-    if (resu1 == 2) {
+    ListNode *new_head = s.mergeTwoLists(l1, l2);
+    if (new_head->next->next->val == 2 && new_head->next->next->next->val == 3) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;
