@@ -16,6 +16,7 @@ public:
                     return i;
                 }
             }
+            //            fuck↓   be careful of haystack! not needle
             i += shift_map[haystack[i+needle.size()]];
         }
         
