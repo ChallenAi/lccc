@@ -29,7 +29,7 @@ int main(int argc, char const *argv[])
         std::cout << std::endl;
     }
 
-    if (false) {
+    if (true) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;

@@ -11,6 +11,8 @@ int main(int argc, char const *argv[])
     Solution s;
     int resu1 = s.strStr(str1, str11);
     int resu2 = s.strStr(str2, str22);
+    std::cout << resu1 << std::endl;
+    std::cout << resu2 << std::endl;
     if (resu1 == 2 && resu2 == -1) {
         std::cout << "pass" << std::endl;
     } else {
