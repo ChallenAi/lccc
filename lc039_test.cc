@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
     vector<int> nums1 = vector<int>(nums1_, nums1_+4);
 
     Solution s;
-    vector<vector<int> > resu = s.combinationSum(nums1, 7);
+    vector<vector<int> > resu = s.combinationSum(nums1, 8);
 
     for (int i = 0; i < resu.size(); ++i) {
         for (int j = 0; j < resu[i].size(); ++j) {
