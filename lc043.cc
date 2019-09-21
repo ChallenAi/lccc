@@ -5,7 +5,7 @@ using namespace std;
 
 class Solution {
 public:
-    int firstMissingPositive(vector<int>& nums) {
+    string multiply(string num1, string num2) {
         
     }
 };
