@@ -12,7 +12,7 @@ struct TreeNode {
 
 class Solution {
 public:
-    int numTrees(int n) {
+    void recoverTree(TreeNode* root) {
         
     }
 };
