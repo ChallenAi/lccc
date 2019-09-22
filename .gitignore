@@ -1,4 +1,5 @@
 *.out
 test_*.cc
-.vscode
+.vscode/
 .*
+.*/
