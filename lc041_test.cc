@@ -1,26 +1,17 @@
 #include <iostream>
 #include <vector>
-#include "lc039.cc"
+#include "lc041.cc"
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int nums1_[] = {2,3,6,7};
-    int nums2_[] = {2,3,6,7};
-    int nums3_[] = {2,3,6,7};
-    vector<int> nums1 = vector<int>(nums1_, nums1_+4);
+    int nums1_[] = {3, 4, -1, 1, 5, 8, 12, 3, 3, 3, 4, 5, 7, 6, 2};
+    vector<int> nums1 = vector<int>(nums1_, nums1_+15);
 
     Solution s;
-    vector<vector<int> > resu = s.combinationSum(nums1, 8);
+    int resu = s.firstMissingPositive(nums1);
 
-    for (int i = 0; i < resu.size(); ++i) {
-        for (int j = 0; j < resu[i].size(); ++j) {
-            cout << resu[i][j] << " ";
-        }
-        cout << endl;
-    }
-
-    if (true) {
+    if (resu == 9) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;
