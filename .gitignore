@@ -3,3 +3,4 @@ test_*.cc
 .vscode/
 .*
 .*/
+test_*.go
