@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "lc054.desc.cc"
+#include "lc054.cc"
 using namespace std;
 
 int main(int argc, char const *argv[])

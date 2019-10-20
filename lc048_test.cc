@@ -7,9 +7,9 @@ int main(int argc, char const *argv[])
 {
     vector<vector<int> > matrix;
     int nums1_[] = {1, 2, 3, 4};
-    int nums2_[] = {5, 6, 7, 8};
-    int nums3_[] = {9, 10, 11, 12};
-    int nums4_[] = {13, 14, 15, 16};
+    int nums2_[] = {12, 13, 14, 5};
+    int nums3_[] = {11, 16, 15, 6};
+    int nums4_[] = {10, 9, 8, 7};
     
     vector<int> nums1 = vector<int>(nums1_, nums1_+4);
     vector<int> nums2 = vector<int>(nums2_, nums2_+4);

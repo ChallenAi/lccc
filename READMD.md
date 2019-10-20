@@ -50,18 +50,18 @@
 * [ ] lc045      
 * [x] lc046      
 * [x] lc047      
-* [ ] lc048  shit inplace rotate matrix     
+* [x] lc048  shit inplace rotate matrix     
 * [ ] lc049      
 * [ ] lc050      
 * [ ] lc051      
 * [ ] lc052      
 * [ ] lc053      
-* [x] lc054 shit inplace rotate matrix   
+* [x] lc054 inplace print matrix   
 * [x] lc055       
 * [x] lc056       
 * [ ] lc057       
 * [x] lc058       
-* [ ] lc059       
+* [ ] lc059 generate rotate matrix   
 * [ ] lc060       
 
 * [ ] lc090      
@@ -77,3 +77,7 @@
 * [ ] lc100      
 * [ ] lc101      
 * [ ] lc102      
+
+
+## rotate matrix
+048, 054, 059
