@@ -57,9 +57,12 @@
 * [ ] lc052      
 * [ ] lc053      
 * [x] lc054 shit inplace rotate matrix   
-* [ ] lc055       
+* [x] lc055       
 * [x] lc056       
 * [ ] lc057       
+* [x] lc058       
+* [ ] lc059       
+* [ ] lc060       
 
 * [ ] lc090      
 * [ ] lc091      
