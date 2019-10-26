@@ -69,6 +69,10 @@
         "deque": "cpp",
         "queue": "cpp",
         "stack": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "__errc": "cpp",
+        "__node_handle": "cpp",
+        "bit": "cpp",
+        "optional": "cpp"
     }
 }
