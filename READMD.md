@@ -59,7 +59,7 @@
 * [x] lc054 inplace print matrix   
 * [x] lc055       
 * [x] lc056       
-* [ ] lc057       
+* [x] lc057       
 * [x] lc058       
 * [ ] lc059 generate rotate matrix   
 * [x] lc060       
@@ -93,7 +93,7 @@
 * [ ] lc088       
 * [ ] lc089     
 * [ ] lc090      
-* [ ] lc091      
+* [x] lc091      
 * [ ] lc092      
 * [ ] lc093      
 * [x] lc094      
