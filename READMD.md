@@ -75,13 +75,13 @@
 * [x] lc070       
 * [ ] lc071       
 * [ ] lc072       
-* [ ] lc073       
+* [ ] lc073  set matrix zeros     
 * [ ] lc074       
 * [ ] lc075       
 * [ ] lc076       
 * [x] lc077       
-* [ ] lc078       
-* [ ] lc079       
+* [x] lc078       
+* [ ] lc079  search the word in the matrix     
 * [ ] lc080       
 * [ ] lc081       
 * [ ] lc082       
