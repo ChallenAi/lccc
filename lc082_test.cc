@@ -7,13 +7,15 @@ int main(int argc, char const *argv[])
     ListNode* head = new ListNode(1);
     ListNode* ptr = head;
     int nums_[] = { 3, 3, 3, 4, 4, 5 };
-    for (int i = 0; i < sizeof(nums_); ++i) {
+    for (int i = 0; i < sizeof(nums_) / sizeof(nums_[0]); ++i) {
         ptr->next = new ListNode(nums_[i]);
         ptr = ptr->next;
     }
 
     Solution s;
     ListNode* head_resu = s.deleteDuplicates(head);
+
+    ptr = head_resu;
 
     if (head_resu->val == 1 && head_resu->next->val == 5) {
         std::cout << "pass" << std::endl;
