@@ -14,25 +14,44 @@ struct TreeNode {
 class Solution {
 private:
     vector<TreeNode*> resu;
-    vector<int> seqs;
-    int n;
-    void rec(int start) {
-        if (seqs.size() >= n) {
-            for (int i = 0; i < seqs.size(); i++) {
-                std::cout << i << " ";
-            }
-            std::cout << std::endl;
+    TreeNode* cur;
+    void recurse(int left, int right, bool isLeft) {
+        TreeNode* par;
+
+        if (left > right) {
             return;
         }
-        for (int i = start; i <= n; ++i) {
-            seqs.push_back(i);
-            rec(i+1);
-        }
+
+        // for (int i = left; i <= right; ++i) {
+        //     // carry left and right leaf here
+        //     par = cur;
+        //     if (isLeft) {
+        //         cur->left = new TreeNode(i);
+        //         cur = cur->left;
+        //     } else {
+        //         cur->right = new TreeNode(i);
+        //         cur = cur->right;
+        //     }
+        //     recurse(left, i-1, true);
+        //     recurse(i+1, right, false);
+        //     // pop the state back;
+        //     if (isLeft) {
+        //         cur = par;
+        //         cur->left = NULL;
+        //     } else {
+        //         cur = par;
+        //         cur->right = NULL;
+        //     }
+        // }
+        
     }
 public:
     vector<TreeNode*> generateTrees(int n) {
-        this->n = n;
-        rec(1);
+        int left = 1;
+        int right = n;
+        cur = new TreeNode(0);
+
+        recurse(left, right, true);
 
         return resu;
     }
