@@ -13,8 +13,7 @@ def formatFileName(idx, isTestFile):
     
     return prefix+str(idx)+_suffix
         
-# for i in range(200):
-for i in range(150, 154):
+for i in range(0, 200):
     fileName = formatFileName(i+1, False)
     if (os.path.exists(fileName) == False):
         f = open(fileName, 'w')
@@ -33,8 +32,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
 
-}
-        ''')
+}''')
         ft.close()
 
     
