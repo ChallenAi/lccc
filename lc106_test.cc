@@ -27,17 +27,17 @@ void travel() {
 
 int main(int argc, char const *argv[])
 {
-    int inorder_[] = {9,3,15,20,7};
-    int preorder_[] = {3,9,20,15,7};
-    vector<int> inorder = vector<int>(inorder_, inorder_+5);
-    vector<int> preorder = vector<int>(preorder_, preorder_+5);
+    vector<int> inorder = {9,3,15,20,7};
+    vector<int> preorder = {3,9,20,15,7};
 
     Solution s;
     TreeNode* resu = s.buildTree(preorder, inorder);
-    q.push(resu);
-    travel();
+    if (resu != NULL) {
+        q.push(resu);
+        travel();
+    }
 
-    if (true) {
+    if (resu != NULL) {
         std::cout << "pass" << std::endl;
     } else {
         std::cout << "not pass!" << std::endl;
