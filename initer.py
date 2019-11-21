@@ -20,7 +20,7 @@ def initIdx(idx):
         f.write('''#include <iostream>
 
 using namespace std;
-        ''')
+''')
         f.close()
     
     testFileName = formatFileName(idx, True)

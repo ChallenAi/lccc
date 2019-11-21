@@ -26,5 +26,4 @@ int main(int argc, char const *argv[])
         std::cout << "not pass!" << std::endl;
     }
     return 0;
-
 }
