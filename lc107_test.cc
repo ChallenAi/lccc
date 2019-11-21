@@ -27,10 +27,8 @@ void travel() {
 
 int main(int argc, char const *argv[])
 {
-    int inorder_[] = {9,3,15,20,7};
-    int postorder_[] = {9,15,7,20,3};
-    vector<int> inorder = vector<int>(inorder_, inorder_+5);
-    vector<int> postorder = vector<int>(postorder_, postorder_+5);
+    vector<int> inorder = {9,3,15,20,7};
+    vector<int> postorder = {9,15,7,20,3};
 
     Solution s;
     TreeNode* resu = s.buildTree(inorder, postorder);
