@@ -6,3 +6,4 @@ test_*.cc
 test_*.go
 
 *.desc.cc
+*.class
