@@ -24,7 +24,7 @@ class Solution {
         // for (List<Integer> el:triangle) {
         //     minimum += el.get(0);
         // }
-        triangle.forEach(el -> minimum+=el.get(0));
+        triangle.forEach(el -> minimum += el.get(0));
         recurse(0, 0);
         return minimum;
     }
