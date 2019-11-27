@@ -21,9 +21,10 @@ class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         this.triangle = triangle;
         minimum = 0;
-        for (List<Integer> el:triangle) {
-            minimum += el.get(0);
-        }
+        // for (List<Integer> el:triangle) {
+        //     minimum += el.get(0);
+        // }
+        triangle.forEach(el -> minimum+=el.get(0));
         recurse(0, 0);
         return minimum;
     }
