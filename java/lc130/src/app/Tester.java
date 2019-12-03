@@ -10,6 +10,8 @@ public class Tester {
             {'X', 'O', 'O', 'X'},
             {'X', 'X', 'O', 'X'},
             {'X', 'O', 'X', 'X'},
+            {'X', 'O', 'O', 'X'},
+            {'X', 'O', 'X', 'X'},
         };
 
         Solution s = new Solution();
