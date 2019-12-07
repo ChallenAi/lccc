@@ -9,7 +9,7 @@ public class Tester {
         int[] cost = {3,4,5,1,2};
 
         int[] gas2 = {1,2,3,4,5};
-        int[] cost2 = {3,4,5,1,2};
+        int[] cost2 = {3,8,2,1,2};
 
         Solution s = new Solution();
         int resu1 = s.canCompleteCircuit(gas, cost);
